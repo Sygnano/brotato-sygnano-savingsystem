@@ -1,0 +1,21 @@
+{
+  "name": "SavingSystem",
+  "namespace": "Sygnano",
+  "version_number": "1.1.1",
+  "description": "An advanced automatic saving system",
+  "website_url": "null",
+  "dependencies": [],
+  "extra": {
+    "godot": {
+      "authors": ["Sygnano"],
+      "tags": ["saves", "system", "saving", "loading", "load"],
+      "description_rich": "",
+      "optional_dependencies": [],
+      "load_before": [],
+      "incompatibilities": [],
+      "compatible_mod_loader_version": ["6.3.0"],
+      "compatible_game_version": ["1.2.0.0", "1.2.0.1"],
+      "config_schema": {}
+    }
+  }
+}

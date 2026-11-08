@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://resources/themes/base_theme.tres" type="Theme" id=1]
+[ext_resource path="res://mods-unpacked/Sygnano-SavingSystem/extensions/ui/menus/pages/wave_selector.gd" type="Script" id=2]
+
+[node name="SaveWaveSelector" type="Button"]
+theme = ExtResource( 1 )
+text = "WAVE_NUMBER"
+script = ExtResource( 2 )
+
+[connection signal="pressed" from="." to="." method="_on_SaveWaveSelector_pressed"]
